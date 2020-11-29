@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\SoilSensor"
+		},
+		{
+			"name": "PowerMeter",
+			"path": "."
+		},
+		{
+			"name": "Pump",
+			"path": "..\\Pump"
+		}
+	],
+	"settings": {}
+}
