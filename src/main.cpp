@@ -48,7 +48,7 @@ void loop()
 
   char time[21];
   uint64_t allSeconds = millis() / 1000U;
-  float runHoursWithReminder = (float) allSeconds / 3600.0F;
+  float runHoursWithReminder = (float)millis() / (3600.0F * 1000.0F);
   uint32_t runHours = allSeconds / 3600U;
   uint32_t secsRemaining = allSeconds % 3600U;
   uint32_t runMinutes = secsRemaining / 60U;
